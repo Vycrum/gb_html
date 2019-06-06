@@ -2,18 +2,26 @@ body {
     background-color: #f8f8f8;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .header {
     position: relative;
     width: 100%;
     height: 50px;
     padding: 10px 0;
     border-bottom: 2px solid #adadad;
+    background: url('../img/header2.jpg');
+/*    background-size: 100%;*/
 }
 
 #logo {
     width: 100px;
     height: 50px;
     float: left;
+    margin-left: 20px;
     background: url('../img/logo.jpg') no-repeat;
     background-size: contain;
 }
@@ -30,27 +38,30 @@ body {
 
 #navigation {
     height: 50px;
-    float: left;
+    float: right;
     display: flex;
     align-items: center;
     flex-direction: row;
 }
 
-.menu,
+.menu li,
 .catalog li {
     font-style: oblique;
     font-size: 20px;
     list-style-type: none;
-}
-
-.catalog li {
-    list-style-type: square;
+    /*    border: 1px solid black;*/
+    padding: 5px;
 }
 
 .menu li a,
 .catalog li a {
     color: #380d02;
     text-decoration: none;
+}
+
+.menu li,
+.catalog li {
+    display: inline;
 }
 
 .menu li a:hover,
@@ -62,18 +73,76 @@ body {
     color: red;
 }
 
-.product_description h3 {
+.content {
+    position: relative;
+}
+
+#catalog_nav {
+    width: 100%;
+    height: 50px;
+    float: left;
+    align-items: center;
+    border-bottom: 2px solid #adadad;
+    background: url('../img/header2.jpg');
+}
+
+.product_info {
+    position: relative;
+    clear: both;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#product_face {
+    width: 400px;
+    position: relative;
+    clear: both;
+    padding-top: 1px;
+    float: left;
+}
+
+.product_description {
+    float: left;
+    width: 500px;
+    margin-left: 20px;
+}
+
+.product_description a {
+    font-size: 20px;
+    color: #380d02;
+    padding: 3px;
+    text-decoration: none;
+    border: 1px solid grey;
+/*    border-style: dotted;*/
+    border-radius: 10px;
+}
+
+.product_description a:hover {
+    color: #1896FF
+}
+
+.product_description a:active {
+    color: red;
+}
+
+.content h3 {
+    overflow: hidden;
     color: black;
     font: 18px;
     font-weight: 400;
     background-color: #eaeaea;
 }
 
-
 .short_description {
     color: #707070;
     font: 14px italic;
     line-height: 16px;
+}
+
+.product_features {
+    clear: both;
+    padding-top: 5px;
 }
 
 .full_description p {
@@ -143,9 +212,18 @@ textarea::placeholder {
 }
 
 .footer {
+    height: 30px;
+    position: relative;
     border-top: 2px solid #adadad;
     margin-top: 10px;
+    padding-right: 10px;
     padding-top: 10px;
+    background-color: #dbdbdb;
+    background: url('../img/header2.jpg');
+}
+
+#copyright {
+    float: right;
 }
 
 input[type="text"] {
@@ -181,4 +259,10 @@ input[id="email"]:focus {
     border: 1px solid #000;
     width: 100px;
     height: 50px;
+}
+
+iframe {
+    width: 100%;
+    height: 374px;
+    
 }
