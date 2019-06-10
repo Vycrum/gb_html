@@ -15,7 +15,7 @@ body {
 
 .padding_site {
     padding-left: 98px;
-    padding-right: 98px;
+    padding-right: 97px;
 }
 
 .container {
@@ -132,4 +132,71 @@ body {
 
 .circle:hover {
     background-color: #212121;
+}
+
+/*Features block*/
+
+.featured {
+    height: 609px;
+    position: relative;
+}
+
+.featured_header {
+    padding-top: 120px;
+}
+
+.featured_menu {
+    float: left;
+}
+
+.featured_list {
+    list-style-type: none;
+    float: left;
+}
+
+.featured_link {
+    color: #6c6c6c;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 19px 9px;
+    border-bottom: 1px solid #6c6c6c;
+}
+
+.featured_link_active {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    border-bottom: 3px solid #212121;
+}
+
+.explore {
+    float: right;
+    padding-top: 138px;
+}
+
+.explore_link {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    text-decoration: none;
+    float: right;
+    padding-top: 16px;
+}
+
+.arrow_pic {
+    padding-left: 12px;
+    padding-bottom: 1px;
+}
+
+.featured_items {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured_item {
+    float: left;
 }
