@@ -248,4 +248,68 @@ body {
     line-height: 24px;
 }
 
-.order_button {}
+.trending {
+    height: 1108px;
+    position: relative;
+}
+
+.trending_header {
+    padding-top: 119px;
+}
+
+.trending_h2 {
+    float: left;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.trending_products {
+    padding-top: 64px;
+    width: 1170px;
+    height: 770px;
+}
+
+.trending_product {
+    float: left;
+    display: inline-block;
+    padding: 5px;
+}
+
+.hot_deal_slider {
+    height: 800px;
+    background-image: url(img/slider.jpg);
+    position: relative;
+}
+
+.hot_deal_text {
+    padding-top: 287px;
+}
+
+.hot_deal_trending {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.exclusives_big {
+    height: 810px;
+    position: relative;
+}
+
+.exclusives_layout {
+    padding-top: 120px;
+}
+
+.exclusive_big {
+    background-image: url(img/product-1-lg.jpg);
+    height: 570px;
+    width: 570px;
+    float: left;
+}
+
+.exclusive_small {
+    float: left;
+}
