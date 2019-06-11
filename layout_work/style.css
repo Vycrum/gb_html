@@ -53,10 +53,6 @@ body {
 
 .menu_link:hover {
     color: #212121;
-}
-
-.menu_link_active {
-    color: #212121;
     font-weight: 700;
     letter-spacing: 1.4px;
     border-bottom: 3px solid #212121;
@@ -123,15 +119,11 @@ body {
     margin: 5px;
 }
 
-.circle_active {
+.circle:hover {
     width: 40px;
     height: 40px;
     background-color: #212121;
     margin-bottom: 0;
-}
-
-.circle:hover {
-    background-color: #212121;
 }
 
 /*Features block*/
@@ -163,7 +155,7 @@ body {
     border-bottom: 1px solid #6c6c6c;
 }
 
-.featured_link_active {
+.featured_link:hover {
     color: #212121;
     font-size: 36px;
     font-weight: 700;
@@ -199,6 +191,62 @@ body {
 
 .featured_item {
     float: left;
+    position: relative;
+}
+
+.featured_item:hover > .feature_img {
+    opacity: 0.17;
+}
+
+.featured_item:hover > .feature_text {
+    visibility: visible;
+}
+
+.feature_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 206px;
+    visibility: hidden;
+}
+
+.feature_button {
+    padding: 0 79px;
+    padding-bottom: 19px;
+}
+
+.feature_link {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+}
+
+.feature_h {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.feature_content {
+    color: #6c6c6c;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat-Light';
+    text-align: center;
 }
 
 .exclusives {
@@ -268,12 +316,14 @@ body {
     padding-top: 64px;
     width: 1170px;
     height: 770px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
 }
 
 .trending_product {
     float: left;
-    display: inline-block;
-    padding: 5px;
 }
 
 .hot_deal_slider {
@@ -312,6 +362,17 @@ body {
 
 .exclusive_small {
     float: left;
+}
+
+.excl_small {
+    float: left;
+    padding-left: 30px;
+    height: 574px;
+    width: 570px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
 }
 
 .mobile_app {
