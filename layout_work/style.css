@@ -90,7 +90,7 @@ body {
     line-height: 24px;
 }
 
-.button {
+.order_button {
     width: 212px;
     height: 45px;
     line-height: 45px;
@@ -200,3 +200,52 @@ body {
 .featured_item {
     float: left;
 }
+
+.exclusives {
+    height: 683px;
+}
+
+.exclusive {
+    width: 683px;
+    height: 683px;
+    float: left;
+}
+
+.exclusive_item_1 {
+    background-image: url(img/promo-img1.jpg);
+}
+
+.exclusive_item_2 {
+    background-image: url(img/promo-img.jpg);
+}
+
+.exclusive_text {
+    padding-top: 228px;
+    padding-left: 50px;
+}
+
+.exclusive_exclusive {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.exclusive_h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.exclusive_content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 374px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.order_button {}
