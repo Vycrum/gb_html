@@ -620,3 +620,65 @@ body {
     text-decoration: none;
     color: #212121;
 }
+
+.contacts_geo {
+    height: 492px;
+    padding-top: 71px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.geo_contact {
+    height: 370px;
+    width: 370px;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;
+}
+
+.contact_way_info {}
+
+.geo_pic {
+    height: 56px;
+    width: 46px;
+    padding-left: 166px;
+    padding-top: 48px;
+}
+
+.geo_h {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 117px;
+    padding-top: 20px;
+}
+
+.geo_info {
+    padding-top: 23px;
+    padding-left: 49px;
+    width: 271px;
+}
+
+.contact_way {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contact_way_info {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contact_way_address {
+    color: #6c6c6c;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+}
