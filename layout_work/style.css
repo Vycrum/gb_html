@@ -682,3 +682,150 @@ body {
     font-weight: 300;
     text-align: center;
 }
+
+.product_d_header {
+    height: 119px;
+    position: relative;
+}
+
+.product_menu_header {
+    height: 70px;
+    background-color: #f4f4f4;
+}
+
+.product_menu {
+    padding-left: 360px;
+    padding-top: 28px;
+}
+
+.product_link {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    padding: 19px 7px;
+}
+
+.product_link:hover {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
+.product_main_container {
+    height: 1556px;
+    position: relative;
+}
+
+.product_main {
+    padding-top: 72px;
+}
+
+.product_main_photo {
+    float: left;
+    height: 651px;
+    width: 570px;
+}
+
+.product_small_photo {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.product_main_info {
+    padding-top: 47px;
+    float: left;
+    padding-left: 56px;
+}
+
+.product_main_h {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.product_main_hot {
+    padding-top: 10px;
+    text-align: center;
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.product_main_price {
+    padding-top: 20px;
+    text-align: center;
+    text-align: center;
+    color: #212121;
+}
+
+.dollar {
+    font-size: 36px;
+}
+
+.price {
+    font-size: 72px;
+}
+
+.currency {
+    font-size: 48px;
+}
+
+.order_main {
+    width: 510px;
+    height: 71px;
+    margin-top: 15px;
+    line-height: 45px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 35px;
+    background-color: #f44336;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 4.4px;
+}
+
+.arrow_pic_white {
+    padding-left: 20px;
+    padding-top: 26px;
+    height: 19px;
+    width: 20px;
+}
+
+.product_main_text {
+    padding-top: 49px;
+    width: 499px;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+}
+
+.product_related {
+    padding-top: 245px;
+}
+
+.related_products {
+    padding-top: 71px;
+    width: 1170px;
+    height: 770px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.related_product {
+    float: left;
+}
