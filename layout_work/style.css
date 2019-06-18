@@ -103,6 +103,10 @@ body {
     letter-spacing: 3.6px;
 }
 
+.order_button:hover {
+    box-shadow: inset 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+}
+
 .pagination {
     position: absolute;
     width: 1170px;
@@ -326,6 +330,11 @@ body {
     float: left;
 }
 
+.trending_link:hover {
+    opacity: 0.8;
+    transition: .4s;
+}
+
 .hot_deal_slider {
     height: 800px;
     background-image: url(img/slider.jpg);
@@ -373,6 +382,11 @@ body {
     flex-flow: row wrap;
     align-content: space-between;
     justify-content: space-between;
+}
+
+.excl_sm_link:hover {
+    opacity: 0.8;
+    transition: .4s;
 }
 
 .mobile_app {
@@ -611,6 +625,11 @@ body {
     justify-content: space-between;
 }
 
+.catalog_link:hover {
+    opacity: 0.8;
+    transition: .4s;
+}
+
 .refresh {
     padding-top: 71px;
     padding-left: 574px;
@@ -794,6 +813,10 @@ body {
     display: inline-block;
     text-decoration: none;
     letter-spacing: 4.4px;
+}
+
+.order_main:hover {
+    box-shadow: inset 0 2px 5px 1px rgba(33, 33, 33, 0.35);
 }
 
 .arrow_pic_white {
